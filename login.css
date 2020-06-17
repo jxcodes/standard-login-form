@@ -1,0 +1,40 @@
+.form-container {
+  max-width: 450px;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  color: #aaaaaa;
+}
+/* Authenticating */
+.form-container #lgn-indicator {
+  display: none;
+}
+.form-container.status-authenticating #lgn-indicator {
+  display: inline-block;
+}
+
+.btn-login > span {
+  vertical-align: middle;
+}
+
+.progress-disabled {
+  display: none;
+}
+
+.message {
+  color: #e91e63;
+  font-weight: 700;
+  font-family: monospace;
+  background: #fff1f6;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: none;
+  border: dashed 1px;
+  font-size: 14px;
+}
